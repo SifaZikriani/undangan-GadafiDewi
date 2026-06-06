@@ -107,6 +107,9 @@ body.locked { overflow: hidden; height: 100vh; }
   position: relative;
   z-index: 2;
 
+   max-width: 90%; /* tambahan */
+  box-sizing: border-box; /* tambahan */
+
   background: rgba(245, 213, 184, 0.18); /* peach soft */
   padding: 2.5rem 2rem;
   border-radius: 18px;
