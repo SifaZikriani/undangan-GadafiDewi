@@ -36,11 +36,12 @@ body.locked { overflow: hidden; height: 100vh; }
 #cover {
   height: 100vh;
   min-height: 600px;
-  background:
+   
     background: url("../assets/cover.jpg");
   background-size: cover;
   background-position: center 25%;
   background-repeat: no-repeat;
+   
   display: flex;
   flex-direction: column;
   align-items: center;
