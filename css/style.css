@@ -37,11 +37,10 @@ body.locked { overflow: hidden; height: 100vh; }
   height: 100vh;
   min-height: 600px;
   background:
-    radial-gradient(ellipse 90% 55% at 50% -5%, rgba(247,232,216,.95) 0%, transparent 65%),
-    radial-gradient(ellipse 70% 45% at 85% 100%, rgba(240,221,212,.8) 0%, transparent 55%),
-    radial-gradient(ellipse 50% 40% at 10% 60%, rgba(232,216,200,.6) 0%, transparent 50%),
-    radial-gradient(ellipse 40% 30% at 70% 30%, rgba(245,213,184,.4) 0%, transparent 45%),
-    linear-gradient(160deg, #fdf5ed 0%, #f9ece0 35%, #fdf0e6 65%, #faf3ec 100%);
+    background: url("../assets/cover.jpg");
+  background-size: cover;
+  background-position: center 25%;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
