@@ -483,6 +483,9 @@ function initCover() {
     ).style.display = "block";
 
     await startMusic();
+    document
+  .getElementById("music-btn")
+  .classList.add("show");
 
     document.getElementById(
       "content"
