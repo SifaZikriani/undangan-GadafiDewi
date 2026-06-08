@@ -595,16 +595,37 @@ footer {
    MUSIK BUTTON
 ============================================================ */
 #music-btn {
-  position: fixed; bottom: 24px; right: 24px; z-index: 999;
-  width: 46px; height: 46px; border-radius: 50%;
-  background: var(--gold); border: none; color: #fff;
-  font-size: 18px; cursor: pointer;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+
+  background: var(--gold);
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+
   box-shadow: 0 4px 20px rgba(201,149,110,.4);
-  display: flex; align-items: center; justify-content: center;
-  transition: transform .3s, background .3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: .3s;
 }
-#music-btn:hover  { transform: scale(1.1); }
-#music-btn.playing { background: var(--rose); }
+
+#music-btn.show {
+  opacity: 1;
+  visibility: visible;
+}
 
 /* ============================================================
    SCROLL REVEAL
