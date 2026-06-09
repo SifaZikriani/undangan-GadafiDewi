@@ -674,3 +674,8 @@ footer {
   .cd-num { font-size: 38px; }
   .cd-sep { font-size: 30px; }
 }
+@media (max-width: 768px) {
+  #cover {
+    background-position: center top;
+  }
+}
